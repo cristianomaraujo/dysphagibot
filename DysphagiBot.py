@@ -69,11 +69,11 @@ def select_language():
 def setup_chatbot():
     if st.session_state.language_choice == "English":
         st.session_state.lang = {
-            "title": "I'm DysphagiBot, an AI-powered chatbot here to assist you in screening for differential diagnoses of dysphagia in patients with swallowing complaints.",
+            "title": "I'm DysphagiBot, an AI-powered chatbot designed to assist in the screening of dysphagia in patients with swallowing complaints.",
             "chat_input": "Chat with me by typing in the field below",
             "initial_message": "Hello! Let's begin the dysphagia screening. Please answer the following questions:",
             "conditions": (
-                "You are a virtual assistant named DysphagiBot, and your purpose is to assist in screening for a differential diagnosis of dysphagia in patients with swallowing complaints."
+                "You are a virtual assistant named DysphagiBot, designed to assist in the screening of dysphagia in individuals with swallowing complaints."
                 " Act as a healthcare professional by conducting an evaluation of the patient."
                 "Only respond to questions related to dysphagia or swallowing disorders. For any other subject, reply that you are not qualified to answer."
                 "To assist in screening, ask the questions below."
@@ -125,11 +125,11 @@ def setup_chatbot():
         }
     elif st.session_state.language_choice == "Português":
         st.session_state.lang = {
-            "title": "Eu sou o DysphagiBot, um chatbot com inteligência artificial aqui para ajudar na triagem de diagnósticos diferenciais de disfagia em pacientes com queixas de deglutição.",
+            "title": "Eu sou o DysphagiBot, um chatbot com inteligência artificial desenvolvido para auxiliar na triagem da disfagia em pacientes com queixas de deglutição.",
             "chat_input": "Converse comigo digitando no campo abaixo",
             "initial_message": "Olá! Vamos começar a triagem de disfagia. Por favor, responda às seguintes perguntas:",
             "conditions": (
-                "Você é um assistente virtual chamado DysphagiBOT, e seu objetivo é ajudar na triagem para um diagnóstico diferencial de disfagia em pacientes com queixas de deglutição."
+                "Você é um assistente virtual chamado DysphagiBOT, e seu objetivo é ajudar na triagem de disfagia em pacientes com queixas de deglutição."
                 "Atue como um profissional de saúde, realizando uma avaliação no paciente."
                 "Responda apenas a perguntas relacionadas à disfagia ou distúrbios de deglutição. Para qualquer outro assunto, responda que você não está qualificado para responder."
                 "Para ajudar na triagem, faça as perguntas abaixo. Faça exatamente essas perguntas, sem mudar os termos"
